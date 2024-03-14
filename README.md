@@ -14,7 +14,7 @@ Using Docker containers for your Python app on AWS Lambda means you can create a
 ![Python Docker Image on AWS Lambda](https://github.com/julien-muke/aws-lambda-docker/assets/110755734/860be5b2-ccd9-4f91-b4ac-b9dfd8d305a5)
 
 
-## ⚙️ Requerement
+## ⚙️ Requirements
 
 * Docker
 * AWS CLI
