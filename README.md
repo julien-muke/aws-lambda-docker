@@ -11,29 +11,29 @@ Using Docker containers for your Python app on AWS Lambda means you can create a
 ## 📐 Architecture Design
 
 
-![Tiny Tales Mail -2](https://github.com/julien-muke/Tiny_Tales_Mail/assets/110755734/8ad7533e-5ae5-4858-a6fb-581562d07857)
+![Python Docker Image on AWS Lambda](https://github.com/julien-muke/aws-lambda-docker/assets/110755734/860be5b2-ccd9-4f91-b4ac-b9dfd8d305a5)
 
 
-## ⚙️ AWS Services Used
+## ⚙️ Requerement
 
-* Amazon Simple Email Service (SES)
-* AWS Lambda
-* Amazon Simple Storage Service (S3)
-* Amazon EventBridge
-* AWS Identity and Access Management (IAM)
+* Docker
+* AWS CLI
+* AWS CDK
 
 
-## 🔋 Features
+## 📋 Steps
 
 
-👉 A place to store email templates and list of contacts
+👉 Create CDK Project
 
-👉 A way to send emails
+👉 Create a Python handler app
 
-👉 A way to “merge” email templates with contacts and send them to the email service
+👉 Create Dockerfile for Lambda
 
-👉 A way to trigger sending of emails on a schedule
+👉 Test the Docker image locally
 
+👉 Create AWS Docker Lambda with CDK  
 
+👉 Deploying to AWS
 
-## ➡️ Step 1 - Creating an S3 bucket to store email templates and contacts
+## ➡️ Step 1 - Create CDK Project
